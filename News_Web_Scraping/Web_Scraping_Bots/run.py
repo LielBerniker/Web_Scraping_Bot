@@ -1,0 +1,4 @@
+from Web_Scraping_Bots.Web_scrape_flights.Flights_web_scrape_bot import Flights_web_scrape_bot
+from Web_Scraping_Bots.Web_scrape_bbc.BBC_web_scrape_bot import BBC_web_scrape_bot
+bbc = BBC_web_scrape_bot()
+bbc.search_in_articles("covid")
