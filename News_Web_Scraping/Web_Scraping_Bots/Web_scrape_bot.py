@@ -1,4 +1,5 @@
-import Web_Scraping_Bots.Constants as Const
+import Constants as Const
+
 import os
 from selenium import webdriver
 

@@ -1,10 +1,10 @@
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.remote.webdriver import WebDriver
 import os, shutil
-import Web_Scraping_Bots.Constants as Const
-from Web_Scraping_Bots.Web_scrape_flights.Flight_arriv_information import Flight_arriv_information
-from Web_Scraping_Bots.Web_scrape_flights.Flight_depart_information import Flight_depart_information
-from Web_Scraping_Bots.Web_scrape_flights.Update_flights_storage import Update_flights_storage
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Flight_arriv_information import Flight_arriv_information
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Flight_depart_information import Flight_depart_information
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Update_flights_storage import Update_flights_storage
 import time
 from selenium.webdriver.common.by import By
 """

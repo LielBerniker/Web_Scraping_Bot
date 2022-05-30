@@ -1,10 +1,10 @@
 import hashlib
 from urllib.request import urlopen, Request
-from Web_Scraping_Bots.Web_scrape_flights.FLIGHTS_BOT import FLIGHTS_BOT
-from Web_Scraping_Bots.Web_scrape_flights.Extract_flights_table import Extract_flights_table
-import Web_Scraping_Bots.Constants as Const
-from Web_Scraping_Bots.Web_scrape_flights.Flights_search import Flights_search
-from Web_Scraping_Bots.Web_scrape_bot import Web_scrape_bot
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.FLIGHTS_BOT import FLIGHTS_BOT
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Extract_flights_table import Extract_flights_table
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Flights_search import Flights_search
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bot import Web_scrape_bot
 """
 this class represent a bot that can extract information of current flights and search in the information
 """

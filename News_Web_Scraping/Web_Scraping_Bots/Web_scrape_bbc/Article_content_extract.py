@@ -1,10 +1,10 @@
 import json
 from selenium.webdriver.remote.webdriver import WebDriver
-import Web_Scraping_Bots.Constants as Const
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
 import os
 import re
 from selenium.webdriver.common.by import By
-from Web_Scraping_Bots.Web_scrape_bbc.Article_information import Article_information
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bbc.Article_information import Article_information
 
 """
 this class extracts an articles content 
@@ -143,8 +143,11 @@ class Article_content_extract:
 
         file_name = self.__article_info.name + ".json"
         file_full_path = Const.ARTICLES_PATH + file_name
-        with open(file_full_path, "w") as outfile:
-            outfile.write(json_object)
+        try:
+            with open(file_full_path, "w") as outfile:
+                outfile.write(json_object)
+        except:
+            pass
 
     def __remove_unnecessary_letters_from_name(self):
         """
@@ -161,4 +164,6 @@ class Article_content_extract:
         article_name = article_name.replace('/', '')
         article_name = article_name.replace('|', '')
         article_name = article_name.replace('"', '')
+        article_name = article_name.replace("'", "")
+        article_name = article_name.replace('\n', "")
         self.__article_info.name = article_name

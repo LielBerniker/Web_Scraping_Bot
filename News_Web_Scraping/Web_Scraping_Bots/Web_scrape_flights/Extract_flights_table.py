@@ -1,6 +1,6 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
-from Web_Scraping_Bots.Web_scrape_flights.Extract_and_updtae_flights import Extract_and_update_flights
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_flights.Extract_and_updtae_flights import Extract_and_update_flights
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 

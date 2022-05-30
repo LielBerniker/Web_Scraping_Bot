@@ -1,9 +1,9 @@
-from Web_Scraping_Bots.Web_scrape_bot import Web_scrape_bot
-from Web_Scraping_Bots.Web_scrape_bbc.Links_extract import Links_extract
-from Web_Scraping_Bots.Web_scrape_bbc.Article_content_extract import Article_content_extract
-from Web_Scraping_Bots.Web_scrape_bbc.Article_search import Article_search
-import Web_Scraping_Bots.Constants as Const
-from Web_Scraping_Bots.Web_scrape_bbc.BBC_BOT import BBC_BOT
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bot import Web_scrape_bot
+from  News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bbc.Links_extract import Links_extract
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bbc.Article_content_extract import Article_content_extract
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bbc.Article_search import Article_search
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
+from News_Web_Scraping.Web_Scraping_Bots.Web_scrape_bbc.BBC_BOT import BBC_BOT
 """
 this class represent a bot that extracts all the news links in the bbc main page
 """

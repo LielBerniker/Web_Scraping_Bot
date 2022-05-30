@@ -1,5 +1,5 @@
 import json
-import Web_Scraping_Bots.Constants as Const
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
 
 """
 this class creates json files and save them in the proper directory by flight type 

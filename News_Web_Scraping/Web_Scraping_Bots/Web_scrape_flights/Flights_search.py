@@ -2,7 +2,7 @@ import os
 import json
 import glob
 from prettytable import PrettyTable
-import Web_Scraping_Bots.Constants as Const
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
 
 """
 this class collect all the flights that contain the words the user inserted,

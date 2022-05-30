@@ -1,7 +1,7 @@
 import os
 import json
 import glob
-import Web_Scraping_Bots.Constants as Const
+import News_Web_Scraping.Web_Scraping_Bots.Constants as Const
 from prettytable import PrettyTable
 
 """
